@@ -1,0 +1,18 @@
+[package]
+name = "maggedik"
+version = "0.1.0"
+authors = ["reaur <reaurr@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+keywords = ["maggedik"]
+categories = ["command-line-utilities"]
+description = "Maggedik is a file operation utility such as find, replace word, to uppercase/lovercase, delete word and so on. Enjoy it :)"
+repository = "https://github.com/drojokef/maggedik"
+homepage = "https://github.com/drojokef/maggedik"
+
+[[bin]]
+name = "maggedik"
+test = false
+bench = false
+
+[dependencies]
